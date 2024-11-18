@@ -1,5 +1,12 @@
 # API Spec
 
+## Authentication 
+All Api must use this aunthentication 
+Request : 
+ - Header : 
+    - X-api-key  : "Your secret api key"
+
+
 ## Create Product
 Request :
 - Methode : POST
@@ -63,7 +70,6 @@ Request :
 - Body :
 ```json
 {
-  "id" : "string, unique", 
   "name" : "string", 
   "price" : "long", 
   "quantity" : "integer"

@@ -1,5 +1,6 @@
 package com.learn_api_kotlin.learning
 
+import org.springframework.beans.factory.annotation.Value
 import org.springframework.boot.autoconfigure.SpringBootApplication
 import org.springframework.boot.runApplication
 

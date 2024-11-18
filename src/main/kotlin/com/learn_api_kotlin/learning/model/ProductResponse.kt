@@ -9,16 +9,16 @@ data class ProductResponse(
     val id :String,
 
 
-    val name : String,
+    var name : String,
 
 
-    val price : Long,
+    var price : Long,
 
 
-    val quantity : Int,
+    var quantity : Int,
 
 
     val createdAt : Date,
 
-    val updatedAt : Date?
+    var updatedAt : Date?
 )
